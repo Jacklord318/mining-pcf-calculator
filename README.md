@@ -1,4 +1,5 @@
-# ⛏️ Mining Carbon Footprint Calculator
+# ⛏️ Mining Carbon Footprint Calculator 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mining-pcf-calculator-hd3qmxbudvuzvhezrebuhn.streamlit.app/)
 
 This Streamlit web app estimates the product-level carbon footprint (CO₂e emissions) per ton of ore processed in the mining industry. It uses Life Cycle Assessment (LCA) data and emission factors to provide results aligned with Product Lifecycle Accounting standards (e.g., GHG Protocol).
 
