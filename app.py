@@ -49,10 +49,10 @@ def main():
     st.write("Estimate product-level GHG emissions using LCA data.")
 
     st.subheader("📥 Input Activity Data (per ton of ore)")
-    diesel_ext = st.number_input("Diesel (liters) - Extraction", 0.0, 100.0, 30.0)
+    diesel_ext = st.number_input("Diesel (gallons) - Extraction", 0.0, 30.0, 8.0) * 3.78541
     explosives = st.number_input("Explosives (kg) - Extraction", 0.0, 10.0, 2.0)
     electricity_proc = st.number_input("Electricity (kWh) - Processing", 0.0, 500.0, 150.0)
-    diesel_trans = st.number_input("Diesel (liters) - Transport", 0.0, 100.0, 15.0)
+    diesel_trans = st.number_input("Diesel (gallons) - Transport", 0.0, 30.0, 4.0) * 3.78541
     electricity_waste = st.number_input("Electricity (kWh) - Waste Management", 0.0, 100.0, 20.0)
 
     lifecycle_data = {
