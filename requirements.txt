@@ -1,2 +1,5 @@
 streamlit
-numpy
+pandas
+openpyxl
+networkx
+pyvis
